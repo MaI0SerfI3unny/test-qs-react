@@ -1,0 +1,49 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+header{
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  height: 58px;
+  color: white;
+  background: grey;
+  p{
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+}
+
+main{
+  padding:30px;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  .photo_container{
+    margin: 10px;
+    .photo_item{
+      height: 210px;
+      overflow: hidden;
+      img{
+        width: 100%;
+      }
+    }
+    p{
+      font-weight: bold;
+      font-size: 20px;
+      margin-top: 10px;
+    }
+  }
+}
+
+.container_single{
+  img{
+    margin-top: 30px;
+    width: 100%;
+  }
+}
